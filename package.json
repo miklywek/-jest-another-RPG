@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/miklywek/jest-another-RPG#readme",
   "dependencies": {
-    "eslint-config-rallycoding": "^3.2.0"
+    "eslint-config-rallycoding": "^3.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "inquirer": "^9.1.4",
+    "node-fetch": "^2.6.6"
   },
   "devDependencies": {
     "jest": "^29.3.1"
